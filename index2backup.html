@@ -1,0 +1,72 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="main.css">
+     <title>HACK DATA</title>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  </head>
+
+  <body>
+       <header>
+         <nav class="navbar">
+           <h1>Hack Data</h1>
+           <img src="" width="50px 50px">
+          <ul class="navbar-nav">
+            <li><a href="">Main Project</a> </li>
+            <li><a href="">Others</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Feedback</a></li>
+            <li><a href="">Downloads</a></li>
+          </ul>
+
+          <span class="open-slide">
+            <a href="#" onclick="openSlideMenu()">
+              <svg width="30" height="30">
+                  <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+                  <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+                  <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+              </svg>
+            </a>
+          </span>
+          
+         </nav>
+         <div id="side-menu" class="side-nav">
+            <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+          </div>
+       </header>
+       <nav class="row">
+         <nav class="semicon">
+           <a href="webnavigation.html">Navegar</a>
+           <a href="#">Modo homepage</a>
+         </nav>
+         <nav class="navi">
+            <P>
+              Lorem ipsum dolor sit amet consectetur adipiscing elit posuere, nisl diam tincidunt nunc purus scelerisque molestie, convallis egestas ligula nec ex est id. Praesent magnis porta mollis mi nisi volutpat lorem fermentum, enim nisl commodo ipsum non primis magna urna vel, scelerisque sed aliquam purus tristique torquent at. Maximus at convallis malesuada inceptos velit ligula dictum risus habitant potenti, mus praesent maecenas pellentesque condimentum imperdiet finibus dis quam, sem euismod nisl placerat curabitur in porta nascetur congue. Vel sem elementum eu scelerisque metus lorem aliquam non, ridiculus pretium tempus suspendisse egestas efficitur diam risus, at mus vulputate ad ut litora maximus. Torquent cras faucibus convallis blandit risus mattis fames facilisi at sodales efficitur a potenti, egestas habitasse molestie vestibulum hendrerit duis erat tellus augue justo ultrices varius. Arcu pellentesque accumsan etiam sed malesuada efficitur magna ridiculus id fames ad, tempus diam facilisi cursus consequat rhoncus pharetra ut torquent nunc, cubilia in amet maecenas euismod pulvinar volutpat per placerat purus. Dapibus sed urna nibh volutpat nisi sit commodo ipsum morbi, accumsan vehicula sollicitudin fermentum etiam ex eleifend. Ultrices finibus mauris blandit porttitor praesent elit dis molestie dolor, habitasse nisi varius velit nunc at erat tristique
+            </P>
+         </nav>
+       </nav>
+       <footer>
+         ©2020 Hack Data <br>
+         especial thanks to: <br>
+
+         
+        
+       </footer>
+    <script>
+       function openSlideMenu(){
+       document.getElementById('side-menu').style.width = '250px';
+      document.getElementById('main').style.marginLeft = '250px';
+    }
+
+    function closeSlideMenu(){
+      document.getElementById('side-menu').style.width = '0';
+      document.getElementById('main').style.marginLeft = '0';
+    }  
+    </script>
+  </body>
+</html>
