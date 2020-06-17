@@ -1,0 +1,77 @@
+body {
+background-color: #262626;
+margin: 0px;
+}
+
+.navbar {
+    background-color: #181818;
+    padding: 10px;
+}
+
+.navbar a{
+color: antiquewhite;
+font-size: xx-large;
+font: bold;
+font-family: consolas,'Courier New', Courier, monospace;
+text-decoration: none;
+}
+.navbar a:hover{
+color:#fff;
+text-decoration: underline;
+}
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: #232323;
+    color: antiquewhite;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: 1px solid #363636;
+    outline: none;
+    transition: 0.1s;
+    font: 20px Lato, consolas, sans-serif;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+    background-color: #262626;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0 18px;
+    background-color:#464646;
+    display: none;
+    
+
+}
+.panel a{
+    display: list-item;
+    list-style: none;
+    color:antiquewhite;
+    text-decoration: none;
+    font-size: x-large;
+    font: bold;
+
+
+}
+.panel a:hover{
+    color:#fff;
+    background:#464646;
+    text-decoration:none;
+}
+p{
+    font: 16px Lato, sans-serif; 
+}
+
+.accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 15px;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
